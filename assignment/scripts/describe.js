@@ -33,15 +33,15 @@ if (number >= 2) {
 
 // 1.
 // DESCRIPTION
-// 
-// 
-//
+// We make a variable called name and set it to 'Dane' as a string.
+// We check if name is equal to Mary. If so 'Hi, Mary' will be console.logged.
+// If name is not equal to Mary 'How do you do?' will be console.logged.
 //
 //
 //
 //
 // OUTCOME:
-//
+// 'How do you do?' will be logged.
 
 // CODE:
 /*
