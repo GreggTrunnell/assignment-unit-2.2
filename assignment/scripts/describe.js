@@ -59,12 +59,11 @@ if (name === 'Mary') {
 
 // 2.
 // DESCRIPTION:
-// 
-// 
-// 
-//
+// We make a variable called secret with no value. We make another variable called code and assign 123 as a number.
+// If code is equal to 123, and code times 2 is less then 250 secret will get a string 'super' and be logged to the console. 
+// If code is greater then 250 'duper' will be assigned to the secret and 'duper will be console logged.
 // OUTCOME:
-//
+// 'super' will be logged to the console.
 
 // CODE:
 /*
@@ -89,7 +88,7 @@ console.log(secret)
 
 // 3.
 // DESCRIPTION
-// 
+// We have a variable isStudent assigned a boolean value.
 // 
 // 
 //
