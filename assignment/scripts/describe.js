@@ -34,7 +34,7 @@ if (number >= 2) {
 // 1.
 // DESCRIPTION
 // We make a variable called name and set it to 'Dane' as a string.
-// We check if name is equal to Mary. If so 'Hi, Mary' will be console.logged.
+// We check if name is equal to Mary and is a string. If so 'Hi, Mary' will be console.logged.
 // If name is not equal to Mary 'How do you do?' will be console.logged.
 //
 //
@@ -61,7 +61,7 @@ if (name === 'Mary') {
 // DESCRIPTION:
 // We make a variable called secret with no value. We make another variable called code and assign 123 as a number.
 // If code is equal to 123, and code times 2 is less then 250 secret will get a string 'super' and be logged to the console. 
-// If code is greater then 250 'duper' will be assigned to the secret and 'duper will be console logged.
+// If code is greater then 250 'duper' will be assigned to the secret and 'duper' will be console logged.
 // OUTCOME:
 // 'super' will be logged to the console.
 
@@ -88,7 +88,7 @@ console.log(secret)
 
 // 3.
 // DESCRIPTION
-// We have a variable isStudent assigned a boolean value.
+// We have a variable isStudent and assigned true to a boolean
 // 
 // 
 //
@@ -152,6 +152,8 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+//FIX- 
+
 // CODE:
 /*
 let colorOne = 'red';
@@ -180,6 +182,8 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+  We need to check if both conditions are true with "&&". Not either/or "||" 
+  Fix should be  (temp > 39 && time >=4)
 */
 
 // ------------------------------------------------------------ //
@@ -201,4 +205,6 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+
+
 */
