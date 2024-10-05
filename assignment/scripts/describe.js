@@ -60,7 +60,7 @@ if (name === 'Mary') {
 // 2.
 // DESCRIPTION:
 // We make a variable called secret with no value. We make another variable called code and assign 123 as a number.
-// If code is equal to 123, and code times 2 is less then 250 secret will get a string 'super' and be logged to the console. 
+// If code is equal to 123, and code times 2 is less then 250 secret will log 'super' to the console. 
 // If code is greater then 250 'duper' will be assigned to the secret and 'duper' will be console logged.
 // OUTCOME:
 // 'super' will be logged to the console.
@@ -88,11 +88,12 @@ console.log(secret)
 
 // 3.
 // DESCRIPTION
-// We have a variable isStudent and assigned true to a boolean
-// 
-// 
-//
-// OUTCOME:
+// We have a variable isStudent and assigned boolean true. A variable named age with number value 34,
+// and a variable zip with number value 55407. If the value of isStudent is true and zip is greater then 80000. 
+// 'You're a student on the West Coast will be logged.  If isStudent is false or age is less then 30. 'What are your
+// hobbies?' will be logged. If isStudent is true and zip is less then 80000. 'Welcome to Prime!' will be logged.  
+// 'How about the weather?' will only run if you change the data type of isStudent.
+//OUTCOME:'Welcome to Prime!' will be logged to the console.
 //
 
 // CODE:
@@ -174,7 +175,8 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
-// CODE:
+// CODE: (temp > 39 && time >=4)   We need to check if both conditions are true with "&&". Not either/or "||".
+
 /*
 let temp = 40;
 const time = 4;
@@ -182,8 +184,7 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
-  We need to check if both conditions are true with "&&". Not either/or "||" 
-  Fix should be  (temp > 39 && time >=4)
+
 */
 
 // ------------------------------------------------------------ //
@@ -195,7 +196,7 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
-// CODE:
+// CODE: if(minAge > age) seemed like the easiest way. Another way would be to just change the string statements.
 /*
 let age = 21;
 const minAge = 21;
@@ -205,6 +206,5 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
-
 
 */
